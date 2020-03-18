@@ -10,11 +10,11 @@ class showBooks{
         author:"david",
     
     },
-    {
-    genre: "Adventure",
-    title: "coro",
-    author:"Rye",
-    },
+//     {
+//     genre: "Adventure",
+//     title: "coro",
+//     author:"Rye",
+//     },
     {
        genre: "life",
        title: "me",
