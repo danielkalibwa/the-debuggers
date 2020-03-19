@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>JavaScript Object Constructors</h3>
+
+<p id="demo"></p>
+
+<script>
+// Constructor function for Person objects
+function Person(first, last, age, eye) //parameterized constructor
+{
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+// Create a Person object
+var myFather = new Person("John", "Doe", 50, "blue"); //asssign values 
+
+// Display age
+document.getElementById("demo").innerHTML =
+//"My father " + myFather.firstName+ "," + `is <strong>${myFather.age}</strong>`;
+// to include an attribute to a variable being invoked use $ and `
+
+`My father  ${myFather.firstName}, is <strong>${myFather.age}</strong>`;
+</script>
+
+</body>
+</html>
