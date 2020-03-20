@@ -4,12 +4,12 @@ class showBooks{
    static displayBooks(){
     const book=[
         // create object
-    {
-        genre:"fiction",
-        title:"world",
-        author:"david",
+//     {
+//         genre:"fiction",
+//         title:"world",
+//         author:"david",
     
-    },
+//     },
     {
     genre: "Adventure",
     title: "coro",
