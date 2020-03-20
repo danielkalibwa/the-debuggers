@@ -3,7 +3,7 @@ class showBooks{
     //display books
    static displayBooks(){
     const book=[
-        // create object
+        //create object
     {
         genre:"fiction",
         title:"world",
