@@ -3,18 +3,18 @@ class showBooks{
     //display books
    static displayBooks(){
     const book=[
-        // create object
-//     {
-//         genre:"fiction",
-//         title:"world",
-//         author:"david",
-    
-//     },
+        create object
     {
-    genre: "Adventure",
-    title: "coro",
-    author:"Rye",
+        genre:"fiction",
+        title:"world",
+        author:"david",
+    
     },
+//     {
+//     genre: "Adventure",
+//     title: "coro",
+//     author:"Rye",
+//     },
     {
        genre: "life",
        title: "me",
