@@ -30,6 +30,12 @@ books.forEach((book)=>showBooks.addBookToList(book))
   
 ///display books ends here
 
+ // delete books
+ 
+
+
+
+
    static addBookToList(book){
        const list = document.querySelector('#book-list');
        const row = document.createElement('tr');
@@ -37,6 +43,7 @@ books.forEach((book)=>showBooks.addBookToList(book))
        <td> ${book.genre}</td>
         <td> ${book.title}</td>
         <td> ${book.author}</td>
+        <td><a href ="#" class ="btn btn-danger btn-sm delete" id="delete">x</a></td>
        `;
        list.appendChild(row);
        
